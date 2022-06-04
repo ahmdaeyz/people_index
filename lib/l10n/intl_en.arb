@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "appTitle": "People Index",
+  "contentError": "Not found.",
+  "somethingIsWrong": "Something is wrong.",
+  "forbiddenAccessError": "Forbidden access.",
+  "serviceError": "Service error.",
+  "internetError": "Internal error.",
+  "download": "Download",
+  "failedToSaveImage": "Failed to save image.",
+  "imageSavedToGallery": "Image was saved to your gallery.",
+  "noBiographyInLanguage": "No biography available in this language."
+}

@@ -1,0 +1,13 @@
+{
+  "@@locale": "ar",
+  "appTitle": "فهرس المشاهير",
+  "contentError": "لا يوجد محتوى",
+  "somethingIsWrong": "هناك خطب ما.",
+  "forbiddenAccessError": "غير مسموح",
+  "serviceError": "عطل في الخدمة.",
+  "internetError": "عطل داخلي",
+  "download": "حمّل",
+  "failedToSaveImage": "فشل تحميل الصورة.",
+  "imageSavedToGallery": "تم حفظ الصورة في صورك",
+  "noBiographyInLanguage": "لا سيرة ذاتية باللغة الحالية."
+}
