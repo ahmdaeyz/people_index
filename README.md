@@ -23,6 +23,8 @@ A mobile app to index popular people in the movies industry.
 
 ## Getting Started 🚀
 
+#### You need to get yourself an API key and add it in the coresponding property in config/app_config.json
+
 This project contains 3 flavors:
 
 - development
