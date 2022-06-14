@@ -4,9 +4,9 @@ A mobile app to index popular people in the movies industry.
  
 # Index
 
-- [Features](https://github.com/ahmdaeyz/people_index/edit/master/README.md#features)
-- [Data and Domain Layers UMLs](https://github.com/ahmdaeyz/people_index/edit/master/README.md#data-and-domain-layers)
-- [Getting started](https://github.com/ahmdaeyz/people_index/edit/master/README.md#getting-started-)
+- [Features](#features)
+- [Data and Domain Layers UMLs](#data-and-domain-layers)
+- [Getting started](#getting-started-)
 
 ---
 
