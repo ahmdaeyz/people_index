@@ -14,11 +14,10 @@ abstract class AppModule {
   Future<SharedPreferences> get prefs => SharedPreferences.getInstance();
 
   @lazySingleton
-  Dio get dio {
-    final _appConfig = getIt<AppConfig>();
+  Dio dio(AppConfig appConfig) {
     final aDio = Dio(
       BaseOptions(
-        baseUrl: _appConfig.apiBaseUrl,
+        baseUrl: appConfig.apiBaseUrl,
         connectTimeout: 30000,
         receiveTimeout: 30000,
         sendTimeout: 30000,
