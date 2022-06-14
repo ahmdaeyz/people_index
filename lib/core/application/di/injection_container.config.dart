@@ -69,7 +69,7 @@ Future<_i1.GetIt> $initGetIt(_i1.GetIt get,
   final gh = _i2.GetItHelper(get, environment, environmentFilter);
   final appModule = _$AppModule();
   gh.lazySingleton<_i3.AppConfig>(() => _i3.AppConfig());
-  gh.lazySingleton<_i4.Dio>(() => appModule.dio);
+  gh.lazySingleton<_i4.Dio>(() => appModule.dio(get<_i3.AppConfig>()));
   gh.factory<_i5.ImagesAPIService>(() => _i5.ImagesAPIService(get<_i4.Dio>()));
   gh.singleton<_i6.LocaleCubit>(_i6.LocaleCubit());
   gh.factory<_i7.PeopleAPIService>(() => _i7.PeopleAPIService(get<_i4.Dio>()));
