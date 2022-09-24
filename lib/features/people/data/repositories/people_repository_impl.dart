@@ -9,7 +9,7 @@ import 'package:people_index/features/people/data/data_sources/people_data_sourc
 import 'package:people_index/features/people/data/data_sources/people_local_data_source.dart';
 import 'package:people_index/features/people/data/data_sources/person_details_data_source.dart';
 import 'package:people_index/features/people/data/mappers/person_model.dart';
-import 'package:people_index/features/people/data/services/people_database.dart';
+import 'package:people_index/features/people/data/models/person_model.dart';
 import 'package:people_index/features/people/domain/entities/person.dart';
 import 'package:people_index/features/people/domain/repositories/people_repository.dart';
 
