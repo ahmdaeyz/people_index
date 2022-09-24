@@ -1,5 +1,5 @@
 {
   "apiBaseUrl": "https://api.themoviedb.org/3",
   "imagesBaseUrl": "https://image.tmdb.org/t/p/original",
-  "apiKey": "<YOUR API KEY>"
+  "apiKey": "d74d314ae9186cbe8442e82cf05a7f39"
 }

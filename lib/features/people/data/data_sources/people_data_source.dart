@@ -1,5 +1,5 @@
 import 'package:dartz/dartz.dart';
-import 'package:people_index/features/people/data/services/people_database.dart';
+import 'package:people_index/features/people/data/models/person_model.dart';
 
 // ignore: one_member_abstracts
 abstract class PeopleDataSource {

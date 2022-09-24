@@ -7,21 +7,21 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "38.0.0"
+    version: "47.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.4.1"
+    version: "4.7.0"
   analyzer_plugin:
     dependency: transitive
     description:
       name: analyzer_plugin
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.0"
+    version: "0.11.1"
   archive:
     dependency: transitive
     description:
@@ -218,6 +218,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.2.3"
+  dartx:
+    dependency: transitive
+    description:
+      name: dartx
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.0"
   dartz:
     dependency: "direct main"
     description:
@@ -245,14 +252,14 @@ packages:
       name: drift
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.0"
+    version: "1.7.1"
   drift_dev:
     dependency: "direct dev"
     description:
       name: drift_dev
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.0"
+    version: "1.7.1"
   equatable:
     dependency: "direct main"
     description:
@@ -273,7 +280,7 @@ packages:
       name: ffi
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.1"
+    version: "2.0.1"
   file:
     dependency: transitive
     description:
@@ -440,7 +447,7 @@ packages:
       name: injectable_generator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.5.3"
+    version: "1.5.4"
   internet_connection_checker:
     dependency: "direct main"
     description:
@@ -462,6 +469,27 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.3"
+  isar:
+    dependency: "direct main"
+    description:
+      name: isar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
+  isar_flutter_libs:
+    dependency: "direct main"
+    description:
+      name: isar_flutter_libs
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
+  isar_generator:
+    dependency: "direct dev"
+    description:
+      name: isar_generator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.1"
   js:
     dependency: transitive
     description:
@@ -615,7 +643,7 @@ packages:
       name: path_provider_windows
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.7"
+    version: "2.1.3"
   pedantic:
     dependency: transitive
     description:
@@ -713,7 +741,7 @@ packages:
       name: retrofit_generator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.1"
+    version: "4.0.3+2"
   rxdart:
     dependency: transitive
     description:
@@ -858,7 +886,7 @@ packages:
       name: sqlite3
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.7.1"
+    version: "1.8.0"
   sqlite3_flutter_libs:
     dependency: "direct main"
     description:
@@ -872,7 +900,7 @@ packages:
       name: sqlparser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.21.0"
+    version: "0.22.0"
   stack_trace:
     dependency: transitive
     description:
@@ -936,6 +964,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.13"
+  time:
+    dependency: transitive
+    description:
+      name: time
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.2"
   timing:
     dependency: transitive
     description:
@@ -1019,7 +1054,7 @@ packages:
       name: win32
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.6.1"
+    version: "3.0.0"
   xdg_directories:
     dependency: transitive
     description:
@@ -1034,6 +1069,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "6.1.0"
+  xxh3:
+    dependency: transitive
+    description:
+      name: xxh3
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.1"
   yaml:
     dependency: transitive
     description:

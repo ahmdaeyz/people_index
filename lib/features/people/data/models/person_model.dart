@@ -1,19 +1,27 @@
-import 'package:drift/drift.dart';
+import 'package:isar/isar.dart';
 
-@DataClassName('PersonModel')
-class People extends Table {
-  IntColumn get id => integer()();
+part 'person_model.g.dart';
 
-  RealColumn get popularity => real()();
+@collection
+class PersonModel {
+  PersonModel(
+      {required this.id,
+      this.popularity,
+      this.name,
+      this.imageUrl,
+      this.biography,
+      this.knownFor});
 
-  TextColumn get name => text()();
+  Id id;
 
-  TextColumn get imageUrl => text()();
+  @Index(type: IndexType.value)
+  double? popularity;
 
-  TextColumn get biography => text().nullable()();
+  String? name;
 
-  TextColumn get knownFor => text().nullable()();
+  String? imageUrl;
 
-  @override
-  Set<Column>? get primaryKey => {id};
+  String? biography;
+
+  String? knownFor;
 }
